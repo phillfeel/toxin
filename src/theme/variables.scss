@@ -1,0 +1,94 @@
+/***** Variables *****/
+$xxs: 320px;
+$xs: 575px;
+$sm: 767px;
+$md: 991px;
+$lg: 1199px;
+$xl: 1440px;
+
+$color-dark-100: #1F2041;
+$color-dark-75: rgba(#1F2041, .75);
+$color-dark-50: rgba(#1F2041, .5);
+$color-dark-25: rgba(#1F2041, .25);
+$color-dark-5: rgba(#1F2041, .05);
+$color-purple: #BC9CFF;
+$color-green: #6FCF97;
+
+/***** Fonts *****/
+
+@function str-replace($string, $search, $replace: "") {
+  $index: str-index($string, $search);
+  @if $index {
+    @return str-slice($string, 1, $index - 1) + $replace + str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+  }
+  @return $string;
+}
+
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+  $src: null;
+  $extmods: (
+    eot: "?",
+    svg: "#" + str-replace($name, " ", "_")
+  );
+  $formats: (
+    otf: "opentype",
+    ttf: "truetype"
+  );
+  @each $ext in $exts {
+    $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+  }
+  @font-face {
+    font-family: quote($name);
+    font-weight: $weight;
+    font-style: $style;
+    // font-display: block;
+    src: $src;
+  }
+}
+
+@include font-face('Montserrat', '/../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular', normal, normal, woff2 woff ttf eot svg);
+@include font-face('Montserrat', '/../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700', 700, normal, woff2 woff ttf eot svg);
+@include font-face('Open Sans', '/../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular', normal, normal, woff2 woff ttf eot svg);
+@include font-face('Open Sans', '/../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700', 700, normal, woff2 woff ttf eot svg);
+
+
+/*@mixin media-breakpoint-up($width) {
+  @media (min-width: $width + 1) {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-down($width) {
+  @media (max-width: $width) {
+    @content;
+  }
+}
+
+@mixin media-breakpoint-between($min-width, $max-width) {
+  @media (min-width: $min-width + 1) and (max-width: $max-width) {
+    @content;
+  }
+}
+
+@mixin column($screen-width, $count) {
+  flex-shrink: 0;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+
+  @include media-breakpoint-up($screen-width) {
+    flex-basis: (100% / 12 * $count);
+  }
+}
+
+@mixin firefox-only {
+  @at-root {
+    @-moz-document url-prefix() {
+      & {
+        @content;
+      }
+    }
+  }
+}*/

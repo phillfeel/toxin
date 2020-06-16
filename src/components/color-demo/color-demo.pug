@@ -1,0 +1,13 @@
+
+mixin colors-demo(colorItems)
+  -div
+    -console.log(colorItems)
+  -div
+  .palitra
+    for color in colorItems
+      .palitra__color
+        .box(style={"background-color": color.variable })
+        .info
+          h2.info__title= color.name
+          h2.info__subtitle= color.hex
+        

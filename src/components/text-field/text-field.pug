@@ -1,0 +1,41 @@
+mixin text-field()
+  .text-field
+    .title_and_status
+      h3.title Text Field
+      h3.status Default
+    input.field(type='text' placeholder="Email")
+
+
+mixin text-field(new_class)
+  -
+    if (new_class !== 'hover') {
+      new_type = new_class;
+      status = 'default'
+    } else {
+      new_type = 'text';
+      status = 'hover/focus'
+    };
+
+    placeholder = "Email"
+
+    if (new_class === "masked") {
+      kind = 'masked ';
+      status = 'default';
+      placeholder = "ДД.ММ.ГГГГ"
+    } else {
+      kind = '';
+    }
+
+    if (new_class === "subscription") {
+      kind = 'subscription ';
+      status = '';
+      new_type = 'email';
+    }
+
+  .text-field
+    .title_and_status
+      h3.title= kind+"Text Field"
+      h3.status= status
+    input(class='field '+new_class type=new_type placeholder=placeholder)
+    if new_class === "subscription"
+      button(type="submit") <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9 0.984375L17.0156 9L9 17.0156L7.59375 15.6094L13.1719 9.98438H0.984375V8.01562H13.1719L7.59375 2.39062L9 0.984375Z" fill="url(#paint0_linear)"/><defs><linearGradient id="paint0_linear" x1="9" y1="-13" x2="9" y2="31" gradientUnits="userSpaceOnUse"><stop stop-color="#BC9CFF"/><stop offset="1" stop-color="#8BA4F9"/></linearGradient></defs></svg>

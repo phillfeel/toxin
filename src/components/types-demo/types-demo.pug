@@ -1,0 +1,31 @@
+mixin types()
+  .types
+    .type
+      .type-name 
+        h1 H1
+      h1.one-type.text-h1 This one is the sub-section or widget title
+    .type
+      .type-name
+        h2 H2
+      h2.one-type.text-h2 Next one is the item title inside widgets
+    .type
+      .type-name
+        h3 H3
+      h3.one-type.text-h3 This is a label or CTA text
+    .type
+      .type-name 
+        p Body
+      p.one-type.text-p This is the body text which is used for most of the design, like paragraphs, lists, etc.
+
+//-mixin colors-demo(colorItems)
+  div
+    -console.log(colorItems)
+  div
+  .palitra
+    for color in colorItems
+      .palitra__color
+        .box(style={"background-color": color.variable })
+        .info
+          h2.info__title= color.name
+          h2.info__subtitle= color.hex
+        

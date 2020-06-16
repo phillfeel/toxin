@@ -1,0 +1,24 @@
+/*
+.colors_and_type{
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+*/
+
+.input_elements{
+  width: fit-content;
+  padding-top: 60px;
+
+  & > :not(:first-child){
+    margin-top: 20px;
+  }
+}
+.input_elemets-second {
+  width: fit-content;
+  margin-top: 48px;
+
+  & > :not(:first-child){
+    margin-top: 41px;
+  }
+}

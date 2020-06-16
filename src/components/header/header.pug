@@ -1,0 +1,22 @@
+include ../menu/menu
+include /../base/base-data
+
+mixin test_header()
+  h1 я крутой ХЭАДЕР 808!!!
+
+mixin header()
+  //-if !options
+    - options = {}
+    div
+      - console.log("OPTIONS not found" + options);
+    div
+  div
+    //- console.log("OPTIONS " + options);
+    -console.log(menuItems);
+  div
+  .header
+    a.header__logo(href = '#')
+      | LOGO
+    .header__menu
+      //-+menu({items: options.menuItems})
+      +menu(menuItems)

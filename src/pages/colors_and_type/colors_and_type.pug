@@ -1,0 +1,20 @@
+extends ../base/base
+include ../../components/layout/layout
+include  ../../components/color-demo/color-demo
+include  ../../components/types-demo/types-demo
+
+
+block variables
+
+block title
+  | Colors & type
+  
+block layout_main
+  include ../../components/logo-demo/logo-demo  
+  +layout__main()
+    +layout__container()
+      block main
+        .colors_and_type
+          +colors-demo(colorItems)
+          +types()
+

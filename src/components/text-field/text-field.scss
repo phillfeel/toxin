@@ -1,0 +1,70 @@
+@import '../../theme/variables.scss';
+
+.text-field {
+  width: fit-content;
+  position: relative;
+
+  .title_and_status {
+    
+    display: flex;
+    justify-content: space-between;
+
+    h3.title {
+      float: left;
+    }
+
+    h3.status {
+      color: $color-dark-50;
+    }
+  }
+
+  input.field {
+    width: 320px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border: 1px solid $color-dark-25;
+    border-radius: 4px;
+    padding-left: 15px;
+    transition: all 0.2s ease-in;
+
+    &::placeholder {
+      color: $color-dark-25;
+      transition: all 0.2s ease-in;
+    }
+
+    &:hover {
+      transition: all 0.5s ease;
+      border: 1px solid $color-dark-50;
+
+      &::placeholder {
+        color: $color-dark-75;
+      }
+    }
+  }
+  input.subscription {
+    width: 266px;
+  }
+  button[type="submit"]{
+    height: 18px;
+    position: absolute;
+    bottom: 12px;
+    right: 15px;
+    content: '';
+    outline: none;
+
+    cursor: pointer;
+    border: none;
+  }
+  
+}
+
+.text-field {
+  input.field.hover {
+    border: 1px solid $color-dark-50;
+    &::placeholder {
+      color: $color-dark-75;
+
+    }
+  }
+}
+

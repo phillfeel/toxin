@@ -1,0 +1,40 @@
+extends ../base/base
+include ../../components/layout/layout
+include ../../components/text-field/text-field
+include ../../components/dropdown-input/dropdown
+
+
+
+block variables
+  script(type="text/javascript", src="../../../node_modules/maskedinput/dist/jquery.inputmask.bundle.js")
+  
+
+block title
+  | Colors & type
+
+
+
+//-block header
+  h2 i am header vrode
+  +test_header()
+block layout_main
+  include ../../components/logo-demo/logo-demo
+  +layout__main()
+    +layout__container()
+      block main
+        //-.colors_and_type
+          +colors-demo(colorItems)
+          +types()
+        .input_elements
+          +text-field()
+          +text-field('hover') //-можно передать Type формы
+          +dropdown()
+          +text-field('masked')
+        .input_elemets-second
+          form(action="")
+            +text-field('subscription')
+          form(action="")
+            +text-field('subscription')
+          form(action="")
+            +text-field('subscription')
+            

@@ -1,0 +1,32 @@
+@import '../../theme/variables.scss';
+
+.palitra{
+  display: block;
+  &__color{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    .box{
+      float: left;
+      height: 70px;
+      width: 70px;
+      border-radius: 6px;
+    }
+    .info{
+
+      display: inline-block;
+      &__title{
+        margin-left: 40px;
+        margin-bottom: 5px;
+
+      }
+      &__subtitle{
+        margin-left: 40px;
+        font-weight: normal;
+        color: $color-dark-75;
+      }
+    }
+  }
+}

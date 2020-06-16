@@ -1,0 +1,214 @@
+@import '../../theme/variables.scss';
+
+.dropdown {
+  width: 320px;
+
+  .title_and_status {
+    display: flex;
+    justify-content: space-between;
+
+    h3.title {
+      float: left;
+    }
+
+    h3.status {
+      color: $color-dark-50;
+    }
+  }
+}
+
+$background: #ffffff;
+$select-color: $color-dark-75;
+$select-background: #ffffff;
+$select-width: 320px;
+$select-height: 44px;
+
+
+
+.select-hidden {
+  display: none;
+  visibility: hidden;
+  padding-right: 10px;
+}
+
+.select {
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  color: $select-color;
+  width: $select-width;
+  height: $select-height;
+}
+
+.select-styled {
+  border: 1px solid $color-dark-25;
+  border-radius: 4px;
+  padding-left: 15px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: $select-background;
+  padding: 8px 15px;
+  transition: all 0.2s ease-in;
+
+  &:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-color: $select-color transparent transparent transparent; // рисунок для стрелочки
+    position: absolute;
+    top: 16px;
+    right: 10px;
+  }
+
+  &:hover {
+
+    border: 1px solid rgba(31, 32, 65, 0.5);
+  }
+
+  &:active,
+  &.active {
+
+    border: 1px solid rgba(31, 32, 65, 0.5);
+    border-radius: 4px 4px 0 0;
+
+    &:after {
+      top: 9px;
+      border-color: transparent transparent $select-color transparent;
+    }
+  }
+}
+
+.select-options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  background-color: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+  border-radius: 0 0 4px 4px;
+  border-top: #ffffff;
+
+  li {
+    margin: 17px 0;
+    padding: 0;
+    text-indent: 15px;
+    //border-top: 1px solid darken($select-background, 10);  Убираем разделение в списке
+    transition: all 0.2s ease-in;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: $color-dark-100;
+    height: 30px;
+    line-height: 30px;
+
+    &[rel=people]{
+      .accept, .clear {
+        display: none;
+      }
+    }
+
+    &[rel="hide"] {
+      display: none;
+    }
+
+    &[rel=ready] {
+
+      .accept {
+        margin-left: 140px;
+        display: inline-block;
+        text-indent: 0px;
+        cursor: pointer;
+        h3{
+          color: $color-purple;
+        }
+      }
+      .clear {
+        cursor: pointer;
+        
+        display: inline-block;
+        text-indent: 0px;
+        h3{
+          color: $color-dark-50;
+        }
+      }
+
+      div.counter {
+        display: none;
+      } 
+    }
+
+    .counter {
+      
+      float: right;
+      margin-right: 5px;
+      text-align: center;
+      height: 30px;
+      display: flex;
+      width: 92px;
+
+
+      div {
+        display: inline-block;
+        text-align: center;
+        float: none;
+
+        width: 30px;
+        height: 30px;
+        text-indent: 0px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        user-select: none;
+
+      }
+
+      .number {
+        line-height: 30px;
+
+      }
+
+      .plus {
+        cursor: pointer;
+        border: 1px solid rgba(31, 32, 65, 0.5);
+        border-radius: 22px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        color: $color-dark-50;
+      }
+
+      .minus {
+        cursor: pointer;
+        border: 1px solid rgba(31, 32, 65, 0.25);
+        border-radius: 22px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        color: $color-dark-25;
+
+      }
+    }
+  }
+}

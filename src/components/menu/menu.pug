@@ -1,0 +1,8 @@
+mixin menu(menuItems)
+  //-if !options
+    - options = {}
+  //-if !options.items
+    - options.items = []
+  nav.menu__list.js-menu__list
+    for item in menuItems
+      a.menu__item(href = '#' )= item.name
