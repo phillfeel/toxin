@@ -1,0 +1,10 @@
+mixin checkbox(text, checked)
+  
+
+  label.label
+    if checked == "checked"
+      input.checkbox(type="checkbox" checked=checked)
+    else 
+      input.checkbox(type="checkbox")
+    span.fake
+    span.text= text 
