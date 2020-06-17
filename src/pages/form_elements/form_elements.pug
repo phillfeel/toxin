@@ -2,6 +2,7 @@ extends ../base/base
 include ../../components/layout/layout
 include ../../components/text-field/text-field
 include ../../components/dropdown-input/dropdown
+include ../../components/checkbox/checkbox
 
 
 
@@ -25,16 +26,26 @@ block layout_main
         //-.colors_and_type
           +colors-demo(colorItems)
           +types()
-        .input_elements
-          +text-field()
-          +text-field('hover') //-можно передать Type формы
-          +dropdown()
-          +text-field('masked')
-        .input_elemets-second
-          form(action="")
-            +text-field('subscription')
-          form(action="")
-            +text-field('subscription')
-          form(action="")
-            +text-field('subscription')
+        .top_elements
+          .column-1
+            .input_elements
+              +text-field()
+              +text-field('hover') //-можно передать Type формы
+              +dropdown()
+              +text-field('masked')
+            .input_elemets-second
+              form(action="")
+                +text-field('subscription')
+              form(action="")
+                +text-field('subscription')
+              form(action="")
+                +text-field('subscription')
+          .column-2
+            .checbox_buttons 
+              h3.checbox_buttons_title Checkbox buttons
+              +checkbox('Можно курить')
+              +checkbox("Можно с питомцами" , 'checked')
+              +checkbox("Можно пригласить гостей (до 10 человек)" , 'checked')
+          .column-3
+            h3 column3
             

@@ -5,10 +5,23 @@
   justify-content: space-between;
 }
 */
+h3{
+  display: inline-block;
+}
 
+.top_elements{
+  display: grid;
+  grid-auto-flow: column;
+  padding-top: 60px;
+}
+.column-2{
+  width: fit-content;
+}
+.checkbox_buttons{
+  width: fit-content;
+}
 .input_elements{
   width: fit-content;
-  padding-top: 60px;
 
   & > :not(:first-child){
     margin-top: 20px;
