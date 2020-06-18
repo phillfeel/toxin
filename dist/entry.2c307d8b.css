@@ -905,6 +905,65 @@ h3 {
   color: red;
   margin-right: 10px;
 }
+.radio_button {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.label-radio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.radio {
+  display: none;
+}
+
+.fake-radio {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border: 1px solid #BC9CFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 50%;
+}
+.fake-radio::before {
+  content: "";
+  position: absolute;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  opacity: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 12px;
+  height: 12px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  border-radius: 50%;
+}
+
+.radio:checked + .fake-radio::before {
+  opacity: 1;
+}
+
+.text-radio {
+  line-height: 20px;
+  margin-left: 10px;
+}
 /***** Variables *****/
 /***** Fonts *****/
 @font-face {
@@ -1076,6 +1135,64 @@ h3 {
 .text-field input.field.hover::placeholder {
   color: rgba(31, 32, 65, 0.75);
 }
+@charset "UTF-8";
+.toggle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.toggle .text {
+  display: inline-block;
+  height: 24px;
+  line-height: 20px;
+}
+
+.switch-btn {
+  display: inline-block;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+  /* анимация */
+  width: 40px;
+  height: 20px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.switch-btn::after {
+  content: "";
+  /* цвет кнопки */
+  top: 3px;
+  left: 3px;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
+  /* анимация */
+  position: absolute;
+  z-index: 1;
+  width: 12px;
+  height: 12px;
+  background: rgba(31, 32, 65, 0.25);
+  border-radius: 10px;
+}
+
+.switch-on {
+  border: 1px solid #BC9CFF;
+}
+
+.switch-on::after {
+  left: 23px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
+  background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+}
 /***** Variables *****/
 /***** Fonts *****/
 @font-face {
@@ -1174,10 +1291,6 @@ h3 {
   justify-content: space-between;
 }
 */
-h3 {
-  display: inline-block;
-}
-
 .top_elements {
   display: -ms-grid;
   display: grid;
@@ -1195,6 +1308,18 @@ h3 {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.radio_buttons {
+  margin-top: 35px;
+}
+
+h3.radio_buttons_title {
+  margin-bottom: 10px;
+}
+
+.toggles {
+  margin-top: 30px;
 }
 
 .input_elements {

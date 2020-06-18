@@ -5,9 +5,7 @@
   justify-content: space-between;
 }
 */
-h3{
-  display: inline-block;
-}
+
 
 .top_elements{
   display: grid;
@@ -20,6 +18,16 @@ h3{
 .checkbox_buttons{
   width: fit-content;
 }
+.radio_buttons {
+  margin-top: 35px;
+}
+h3.radio_buttons_title {
+  margin-bottom: 10px;
+}
+.toggles{
+  margin-top: 30px;
+}
+
 .input_elements{
   width: fit-content;
 

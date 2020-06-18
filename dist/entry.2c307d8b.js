@@ -336,7 +336,16 @@ module.hot.accept(reloadCSS);
 "use strict";
 
 require("./menu.scss");
-},{"./menu.scss":"../../components/menu/menu.scss"}],"../../components/text-field/text-field.scss":[function(require,module,exports) {
+},{"./menu.scss":"../../components/menu/menu.scss"}],"../../components/radio_button/radio_button.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../components/radio_button/radio_button.js":[function(require,module,exports) {
+"use strict";
+
+require("./radio_button.scss");
+},{"./radio_button.scss":"../../components/radio_button/radio_button.scss"}],"../../components/text-field/text-field.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -3103,7 +3112,26 @@ var Inputmask = require('inputmask');
 jQuery(function () {
   Inputmask('99.99.9999').mask('.masked');
 });
-},{"./text-field.scss":"../../components/text-field/text-field.scss","inputmask":"../../../node_modules/inputmask/index.js"}],"../../components/types-demo/types-demo.scss":[function(require,module,exports) {
+},{"./text-field.scss":"../../components/text-field/text-field.scss","inputmask":"../../../node_modules/inputmask/index.js"}],"../../components/toggle/toggle.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../components/toggle/toggle.js":[function(require,module,exports) {
+"use strict";
+
+require("./toggle.scss");
+
+$('.switch-btn').click(function () {
+  $(this).toggleClass('switch-on');
+
+  if ($(this).hasClass('switch-on')) {
+    $(this).trigger('on.switch');
+  } else {
+    $(this).trigger('off.switch');
+  }
+});
+},{"./toggle.scss":"../../components/toggle/toggle.scss"}],"../../components/types-demo/types-demo.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -3135,14 +3163,20 @@ module.exports = {
   "menu": {
     "menu": require("./../menu/menu.js")
   },
+  "radio_button": {
+    "radio_button": require("./../radio_button/radio_button.js")
+  },
   "text-field": {
     "text-field": require("./../text-field/text-field.js")
+  },
+  "toggle": {
+    "toggle": require("./../toggle/toggle.js")
   },
   "types-demo": {
     "types-demo": require("./../types-demo/types-demo.js")
   }
 };
-},{"./../checkbox/checkbox.js":"../../components/checkbox/checkbox.js","./../color-demo/color-demo.js":"../../components/color-demo/color-demo.js","./../dropdown-input/dropdown.js":"../../components/dropdown-input/dropdown.js","./../header/header.js":"../../components/header/header.js","./../layout/layout.js":"../../components/layout/layout.js","./../logo-demo/logo-demo.js":"../../components/logo-demo/logo-demo.js","./../menu/menu.js":"../../components/menu/menu.js","./../text-field/text-field.js":"../../components/text-field/text-field.js","./../types-demo/types-demo.js":"../../components/types-demo/types-demo.js"}],"../colors_and_type/colors_and_type.scss":[function(require,module,exports) {
+},{"./../checkbox/checkbox.js":"../../components/checkbox/checkbox.js","./../color-demo/color-demo.js":"../../components/color-demo/color-demo.js","./../dropdown-input/dropdown.js":"../../components/dropdown-input/dropdown.js","./../header/header.js":"../../components/header/header.js","./../layout/layout.js":"../../components/layout/layout.js","./../logo-demo/logo-demo.js":"../../components/logo-demo/logo-demo.js","./../menu/menu.js":"../../components/menu/menu.js","./../radio_button/radio_button.js":"../../components/radio_button/radio_button.js","./../text-field/text-field.js":"../../components/text-field/text-field.js","./../toggle/toggle.js":"../../components/toggle/toggle.js","./../types-demo/types-demo.js":"../../components/types-demo/types-demo.js"}],"../colors_and_type/colors_and_type.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -14307,7 +14341,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53054" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59848" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

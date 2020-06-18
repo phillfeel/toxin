@@ -3,6 +3,8 @@ include ../../components/layout/layout
 include ../../components/text-field/text-field
 include ../../components/dropdown-input/dropdown
 include ../../components/checkbox/checkbox
+include ../../components/radio_button/radio_button
+include ../../components/toggle/toggle
 
 
 
@@ -46,6 +48,14 @@ block layout_main
               +checkbox('Можно курить')
               +checkbox("Можно с питомцами" , 'checked')
               +checkbox("Можно пригласить гостей (до 10 человек)" , 'checked')
+            .radio_buttons
+              h3.radio_buttons_title Radio buttons
+              +radio_button('Мужчина','checked')
+              +radio_button('Женщина','checked')
+            .toggles
+              h3.radio_buttons_title Toggle
+              +toggle('on')
+              +toggle()
           .column-3
             h3 column3
             
