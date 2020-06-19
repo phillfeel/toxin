@@ -5,6 +5,8 @@ include ../../components/dropdown-input/dropdown
 include ../../components/checkbox/checkbox
 include ../../components/radio_button/radio_button
 include ../../components/toggle/toggle
+include ../../components/like_button/like_button
+
 
 
 
@@ -56,6 +58,9 @@ block layout_main
               h3.radio_buttons_title Toggle
               +toggle('on')
               +toggle()
+            .like_buttons
+              h3.like_button_title Like button
+              +like_button()
           .column-3
             h3 column3
             
