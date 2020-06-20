@@ -6,7 +6,6 @@
 }
 */
 
-
 .top_elements{
   display: grid;
   grid-auto-flow: column;
@@ -18,15 +17,26 @@
 .checkbox_buttons{
   width: fit-content;
 }
+
+.toggles{
+  margin-top: 30px;
+}
+
 .radio_buttons {
   margin-top: 35px;
 }
 h3.radio_buttons_title {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
-.toggles{
-  margin-top: 30px;
+
+.like_buttons {
+  margin-top: 35px;
 }
+h3.like_buttons_title {
+  margin-bottom: 8px;
+}
+
+
 
 .input_elements{
   width: fit-content;
