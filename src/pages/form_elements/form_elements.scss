@@ -5,14 +5,12 @@
   justify-content: space-between;
 }
 */
-
-
 .top_elements{
   display: grid;
   grid-auto-flow: column;
   padding-top: 60px;
 }
-.column-2 > div:not(:first-child) {
+.column > div:not(:first-child) {
   margin-top: 35px;
 }
 
@@ -41,4 +39,8 @@
   & > :not(:first-child){
     margin-top: 41px;
   }
+}
+.buttons{
+  max-width: 320px;
+
 }

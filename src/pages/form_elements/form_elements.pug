@@ -8,6 +8,7 @@ include ../../components/toggle/toggle
 include ../../components/like_button/like_button
 include ../../components/rate_button/rate_button
 include ../../components/range-slider/range-slider
+include ../../components/button/button
 
 
 
@@ -46,7 +47,7 @@ block layout_main
                 +text-field('subscription')
               form(action="")
                 +text-field('subscription')
-          .column-2
+          .column.column-2
             .checbox_buttons 
               h3.column__title.checbox_buttons_title Checkbox buttons
               +checkbox('Можно курить')
@@ -68,8 +69,18 @@ block layout_main
               h3.column__title.rate_buttons_title Rate button
               +rate_button('4')
               +rate_button('5')
-          .column-3
+          .column.column-3
             .range-sliders
               h3.column__title.range_buttons_title Range slider
               +range-slider('0','17000', '5000', '10000')
+            .buttons
+              h3.column__title.buttons_title Buttons
+              +button('default')
+              +button('default','hovered')
+              +button('border')
+              +button('border','hovered')
+
+
+
+
             
