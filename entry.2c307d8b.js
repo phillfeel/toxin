@@ -195,7 +195,16 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff2":[["montserrat-v14-latin_cyrillic-regular.4e19d0e1.woff2","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff2"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff2"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff":[["montserrat-v14-latin_cyrillic-regular.218d1922.woff","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.ttf":[["montserrat-v14-latin_cyrillic-regular.f986470c.ttf","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.ttf"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.ttf"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.eot":[["montserrat-v14-latin_cyrillic-regular.bd0db579.eot","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.eot"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.eot"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.svg":[["montserrat-v14-latin_cyrillic-regular.1ba64254.svg","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.svg"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.svg"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff2":[["montserrat-v14-latin_cyrillic-700.9f97fd64.woff2","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff2"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff2"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff":[["montserrat-v14-latin_cyrillic-700.21d3d149.woff","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.ttf":[["montserrat-v14-latin_cyrillic-700.eda7d231.ttf","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.ttf"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.ttf"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.eot":[["montserrat-v14-latin_cyrillic-700.e3e713e8.eot","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.eot"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.eot"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.svg":[["montserrat-v14-latin_cyrillic-700.194b4651.svg","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.svg"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.svg"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff2":[["open-sans-v17-latin_cyrillic-regular.e428df48.woff2","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff2"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff2"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff":[["open-sans-v17-latin_cyrillic-regular.94459413.woff","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.ttf":[["open-sans-v17-latin_cyrillic-regular.4432c3df.ttf","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.ttf"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.ttf"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.eot":[["open-sans-v17-latin_cyrillic-regular.f4f30db5.eot","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.eot"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.eot"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.svg":[["open-sans-v17-latin_cyrillic-regular.5af11778.svg","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.svg"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.svg"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff2":[["open-sans-v17-latin_cyrillic-700.cedfbf3e.woff2","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff2"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff2"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff":[["open-sans-v17-latin_cyrillic-700.cb465925.woff","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.ttf":[["open-sans-v17-latin_cyrillic-700.42bc6560.ttf","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.ttf"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.ttf"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.eot":[["open-sans-v17-latin_cyrillic-700.15ebecdb.eot","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.eot"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.eot"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.svg":[["open-sans-v17-latin_cyrillic-700.ce6574bf.svg","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.svg"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.svg"],"_css_loader":"../../../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../components/checkbox/checkbox.scss":[function(require,module,exports) {
+},{"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff2":[["montserrat-v14-latin_cyrillic-regular.4e19d0e1.woff2","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff2"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff2"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff":[["montserrat-v14-latin_cyrillic-regular.218d1922.woff","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.ttf":[["montserrat-v14-latin_cyrillic-regular.f986470c.ttf","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.ttf"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.ttf"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.eot":[["montserrat-v14-latin_cyrillic-regular.bd0db579.eot","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.eot"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.eot"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.svg":[["montserrat-v14-latin_cyrillic-regular.1ba64254.svg","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.svg"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.svg"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff2":[["montserrat-v14-latin_cyrillic-700.9f97fd64.woff2","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff2"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff2"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff":[["montserrat-v14-latin_cyrillic-700.21d3d149.woff","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.ttf":[["montserrat-v14-latin_cyrillic-700.eda7d231.ttf","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.ttf"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.ttf"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.eot":[["montserrat-v14-latin_cyrillic-700.e3e713e8.eot","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.eot"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.eot"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.svg":[["montserrat-v14-latin_cyrillic-700.194b4651.svg","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.svg"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.svg"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff2":[["open-sans-v17-latin_cyrillic-regular.e428df48.woff2","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff2"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff2"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff":[["open-sans-v17-latin_cyrillic-regular.94459413.woff","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.ttf":[["open-sans-v17-latin_cyrillic-regular.4432c3df.ttf","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.ttf"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.ttf"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.eot":[["open-sans-v17-latin_cyrillic-regular.f4f30db5.eot","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.eot"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.eot"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.svg":[["open-sans-v17-latin_cyrillic-regular.5af11778.svg","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.svg"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.svg"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff2":[["open-sans-v17-latin_cyrillic-700.cedfbf3e.woff2","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff2"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff2"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff":[["open-sans-v17-latin_cyrillic-700.cb465925.woff","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.ttf":[["open-sans-v17-latin_cyrillic-700.42bc6560.ttf","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.ttf"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.ttf"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.eot":[["open-sans-v17-latin_cyrillic-700.15ebecdb.eot","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.eot"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.eot"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.svg":[["open-sans-v17-latin_cyrillic-700.ce6574bf.svg","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.svg"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.svg"],"_css_loader":"../../../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../components/button/button.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../components/button/button.js":[function(require,module,exports) {
+"use strict";
+
+require("./button.scss");
+},{"./button.scss":"../../components/button/button.scss"}],"../../components/checkbox/checkbox.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -318,7 +327,40 @@ module.hot.accept(reloadCSS);
 "use strict";
 
 require("./layout.scss");
-},{"./layout.scss":"../../components/layout/layout.scss"}],"../../components/logo-demo/logo-demo.scss":[function(require,module,exports) {
+},{"./layout.scss":"../../components/layout/layout.scss"}],"../../components/like_button/like_button.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff2":[["montserrat-v14-latin_cyrillic-regular.4e19d0e1.woff2","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff2"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff2"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff":[["montserrat-v14-latin_cyrillic-regular.218d1922.woff","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.woff"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.ttf":[["montserrat-v14-latin_cyrillic-regular.f986470c.ttf","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.ttf"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.ttf"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.eot":[["montserrat-v14-latin_cyrillic-regular.bd0db579.eot","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.eot"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.eot"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.svg":[["montserrat-v14-latin_cyrillic-regular.1ba64254.svg","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.svg"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-regular.svg"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff2":[["montserrat-v14-latin_cyrillic-700.9f97fd64.woff2","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff2"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff2"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff":[["montserrat-v14-latin_cyrillic-700.21d3d149.woff","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.woff"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.ttf":[["montserrat-v14-latin_cyrillic-700.eda7d231.ttf","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.ttf"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.ttf"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.eot":[["montserrat-v14-latin_cyrillic-700.e3e713e8.eot","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.eot"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.eot"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.svg":[["montserrat-v14-latin_cyrillic-700.194b4651.svg","../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.svg"],"../../theme/fonts/montserrat-v14-latin_cyrillic/montserrat-v14-latin_cyrillic-700.svg"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff2":[["open-sans-v17-latin_cyrillic-regular.e428df48.woff2","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff2"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff2"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff":[["open-sans-v17-latin_cyrillic-regular.94459413.woff","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.woff"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.ttf":[["open-sans-v17-latin_cyrillic-regular.4432c3df.ttf","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.ttf"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.ttf"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.eot":[["open-sans-v17-latin_cyrillic-regular.f4f30db5.eot","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.eot"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.eot"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.svg":[["open-sans-v17-latin_cyrillic-regular.5af11778.svg","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.svg"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-regular.svg"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff2":[["open-sans-v17-latin_cyrillic-700.cedfbf3e.woff2","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff2"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff2"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff":[["open-sans-v17-latin_cyrillic-700.cb465925.woff","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.woff"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.ttf":[["open-sans-v17-latin_cyrillic-700.42bc6560.ttf","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.ttf"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.ttf"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.eot":[["open-sans-v17-latin_cyrillic-700.15ebecdb.eot","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.eot"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.eot"],"/Users/philipp/Documents/code/NEW-CODING/toxin-01/src/theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.svg":[["open-sans-v17-latin_cyrillic-700.ce6574bf.svg","../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.svg"],"../../theme/fonts/open-sans-v17-latin_cyrillic/open-sans-v17-latin_cyrillic-700.svg"],"_css_loader":"../../../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../components/like_button/like_button.js":[function(require,module,exports) {
+"use strict";
+
+require("./like_button.scss");
+
+var hearts = document.querySelectorAll('.like_button');
+hearts.forEach(function (heart) {
+  return heart.addEventListener('click', function () {
+    var likesNumber = heart.querySelector('.count');
+    var counter = Number(likesNumber.textContent);
+
+    if (heart.classList.contains('like')) {
+      counter = counter - 1;
+    } else {
+      counter = counter + 1;
+    }
+
+    ;
+
+    function new_count() {
+      likesNumber.textContent = counter;
+    }
+
+    ;
+    setTimeout(new_count, 180);
+    heart.classList.toggle('like');
+  });
+});
+},{"./like_button.scss":"../../components/like_button/like_button.scss"}],"../../components/logo-demo/logo-demo.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -336,7 +378,356 @@ module.hot.accept(reloadCSS);
 "use strict";
 
 require("./menu.scss");
-},{"./menu.scss":"../../components/menu/menu.scss"}],"../../components/text-field/text-field.scss":[function(require,module,exports) {
+},{"./menu.scss":"../../components/menu/menu.scss"}],"../../components/radio_button/radio_button.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../components/radio_button/radio_button.js":[function(require,module,exports) {
+"use strict";
+
+require("./radio_button.scss");
+},{"./radio_button.scss":"../../components/radio_button/radio_button.scss"}],"../../components/range-slider/range-slider.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../components/range-slider/range-slider.js":[function(require,module,exports) {
+"use strict";
+
+require("./range-slider.scss");
+
+setTimeout(init2slider('id66', 'id66b', 'id661', 'id662', 'id66i1', 'id66i2', 'id66i1r', 'id66i2r'), 0);
+
+function init2slider(idX, btwX, btn1X, btn2X, input1, input2, cost1, cost2) {
+  var slider = document.getElementById(idX);
+  var between = document.getElementById(btwX);
+  var button1 = document.getElementById(btn1X);
+  var button2 = document.getElementById(btn2X);
+  var inpt1 = document.getElementById(input1);
+  var inpt2 = document.getElementById(input2);
+  var rangeCost1 = document.getElementById(cost1);
+  var rangeCost2 = document.getElementById(cost2);
+  var min = inpt1.min;
+  var max = inpt1.max;
+  /*init*/
+
+  var sliderCoords = getCoords(slider);
+  var per1 = parseInt(inpt1.value - min) * 100 / (max - min);
+  var per2 = parseInt(inpt2.value - min) * 100 / (max - min);
+  var left1 = per1 * (slider.offsetWidth - button1.offsetWidth) / 100;
+  var left2 = per2 * (slider.offsetWidth - button1.offsetWidth) / 100;
+  button1.style.marginLeft = left1 + 'px';
+  button2.style.marginLeft = left2 + 'px';
+
+  if (left1 > left2) {
+    between.style.width = left1 - left2 + 'px';
+    between.style.marginLeft = left2 + 'px';
+  } else {
+    between.style.width = left2 - left1 + 'px';
+    between.style.marginLeft = left1 + 'px';
+  }
+  /*
+      button1.style.marginLeft = left1 + 'px'; 
+      button2.style.marginLeft = left2 + 'px';
+   button1.style.marginLeft = '0px';
+  button2.style.marginLeft = (slider.offsetWidth-button1.offsetWidth) + 'px';
+  */
+  //between.style.width = (slider.offsetWidth-button1.offsetWidth) + 'px';
+
+
+  inpt1.value = inpt1.value;
+  inpt2.value = inpt2.value;
+  rangeCost1.textContent = inpt1.value + "₽";
+  rangeCost2.textContent = inpt2.value + "₽"; //inpt1.value = roundTo10(inpt1.value);
+  //inpt2.value = roundTo10(inpt2.value);
+
+  function roundTo10(num) {
+    return Math.round(num / 100) * 100;
+  }
+
+  inpt1.onchange = function (evt) {
+    inpt1.value = roundTo10(inpt1.value);
+    inpt2.value = roundTo10(inpt2.value);
+    if (parseInt(inpt1.value) < min) inpt1.value = min;
+    if (parseInt(inpt1.value) > max) inpt1.value = max;
+
+    if (parseInt(inpt1.value) > parseInt(inpt2.value)) {
+      var temp = inpt1.value;
+      inpt1.value = inpt2.value;
+      inpt2.value = temp;
+    }
+
+    var sliderCoords = getCoords(slider);
+    var per1 = parseInt(inpt1.value - min) * 100 / (max - min);
+    var per2 = parseInt(inpt2.value - min) * 100 / (max - min);
+    var left1 = per1 * (slider.offsetWidth - button1.offsetWidth) / 100;
+    var left2 = per2 * (slider.offsetWidth - button1.offsetWidth) / 100;
+    button1.style.marginLeft = left1 + 'px';
+    button2.style.marginLeft = left2 + 'px';
+
+    if (left1 > left2) {
+      between.style.width = left1 - left2 + 'px';
+      between.style.marginLeft = left2 + 'px';
+    } else {
+      between.style.width = left2 - left1 + 'px';
+      between.style.marginLeft = left1 + 'px';
+    }
+  };
+
+  inpt2.onchange = function (evt) {
+    if (parseInt(inpt2.value) < min) inpt2.value = min;
+    if (parseInt(inpt2.value) > max) inpt2.value = max;
+
+    if (parseInt(inpt1.value) > parseInt(inpt2.value)) {
+      var temp = inpt1.value;
+      inpt1.value = inpt2.value;
+      inpt2.value = temp;
+    }
+
+    var sliderCoords = getCoords(slider);
+    var per1 = parseInt(inpt1.value - min) * 100 / (max - min);
+    var per2 = parseInt(inpt2.value - min) * 100 / (max - min);
+    var left1 = per1 * (slider.offsetWidth - button1.offsetWidth) / 100;
+    var left2 = per2 * (slider.offsetWidth - button1.offsetWidth) / 100;
+    button1.style.marginLeft = left1 + 'px';
+    button2.style.marginLeft = left2 + 'px';
+
+    if (left1 > left2) {
+      between.style.width = left1 - left2 + 'px';
+      between.style.marginLeft = left2 + 'px';
+    } else {
+      between.style.width = left2 - left1 + 'px';
+      between.style.marginLeft = left1 + 'px';
+    }
+  };
+  /*mouse*/
+
+
+  button1.onmousedown = function (evt) {
+    var sliderCoords = getCoords(slider);
+    var betweenCoords = getCoords(between);
+    var buttonCoords1 = getCoords(button1);
+    var buttonCoords2 = getCoords(button2);
+    var shiftX2 = evt.pageX - buttonCoords2.left;
+    var shiftX1 = evt.pageX - buttonCoords1.left;
+
+    document.onmousemove = function (evt) {
+      var left1 = evt.pageX - shiftX1 - sliderCoords.left;
+      var right1 = slider.offsetWidth - button1.offsetWidth;
+      if (left1 < 0) left1 = 0;
+      if (left1 > right1) left1 = right1;
+      button1.style.marginLeft = left1 + 'px';
+      shiftX2 = evt.pageX - buttonCoords2.left;
+      var left2 = evt.pageX - shiftX2 - sliderCoords.left;
+      var right2 = slider.offsetWidth - button2.offsetWidth;
+      if (left2 < 0) left2 = 0;
+      if (left2 > right2) left2 = right2;
+      var per_min = 0;
+      var per_max = 0;
+
+      if (left1 > left2) {
+        between.style.width = left1 - left2 + 'px';
+        between.style.marginLeft = left2 + 'px';
+        per_min = left2 * 100 / (slider.offsetWidth - button1.offsetWidth);
+        per_max = left1 * 100 / (slider.offsetWidth - button1.offsetWidth);
+      } else {
+        between.style.width = left2 - left1 + 'px';
+        between.style.marginLeft = left1 + 'px';
+        per_min = left1 * 100 / (slider.offsetWidth - button1.offsetWidth);
+        per_max = left2 * 100 / (slider.offsetWidth - button1.offsetWidth);
+      }
+
+      inpt1.value = parseInt(min) + Math.round((max - min) * per_min / 100);
+      inpt2.value = parseInt(min) + Math.round((max - min) * per_max / 100);
+      inpt1.value = roundTo10(inpt1.value);
+
+      if (inpt2.value < max) {
+        inpt2.value = roundTo10(inpt2.value);
+      } else {
+        inpt2.value = max;
+      }
+
+      ;
+      rangeCost1.textContent = inpt1.value + "₽";
+      rangeCost2.textContent = inpt2.value + "₽";
+    };
+
+    document.onmouseup = function () {
+      document.onmousemove = document.onmouseup = null;
+    };
+
+    return false;
+  };
+
+  button2.onmousedown = function (evt) {
+    var sliderCoords = getCoords(slider);
+    var betweenCoords = getCoords(between);
+    var buttonCoords1 = getCoords(button1);
+    var buttonCoords2 = getCoords(button2);
+    var shiftX2 = evt.pageX - buttonCoords2.left;
+    var shiftX1 = evt.pageX - buttonCoords1.left;
+
+    document.onmousemove = function (evt) {
+      var left2 = evt.pageX - shiftX2 - sliderCoords.left;
+      var right2 = slider.offsetWidth - button2.offsetWidth;
+      if (left2 < 0) left2 = 0;
+      if (left2 > right2) left2 = right2;
+      button2.style.marginLeft = left2 + 'px';
+      shiftX1 = evt.pageX - buttonCoords1.left;
+      var left1 = evt.pageX - shiftX1 - sliderCoords.left;
+      var right1 = slider.offsetWidth - button1.offsetWidth;
+      if (left1 < 0) left1 = 0;
+      if (left1 > right1) left1 = right1;
+      var per_min = 0;
+      var per_max = 0;
+
+      if (left1 > left2) {
+        between.style.width = left1 - left2 + 'px';
+        between.style.marginLeft = left2 + 'px';
+        per_min = left2 * 100 / (slider.offsetWidth - button1.offsetWidth);
+        per_max = left1 * 100 / (slider.offsetWidth - button1.offsetWidth);
+      } else {
+        between.style.width = left2 - left1 + 'px';
+        between.style.marginLeft = left1 + 'px';
+        per_min = left1 * 100 / (slider.offsetWidth - button1.offsetWidth);
+        per_max = left2 * 100 / (slider.offsetWidth - button1.offsetWidth);
+      }
+
+      inpt1.value = parseInt(min) + Math.round((max - min) * per_min / 100);
+      inpt2.value = parseInt(min) + Math.round((max - min) * per_max / 100);
+      inpt2.value = roundTo10(inpt2.value);
+
+      if (inpt1.value === min + 100) {
+        inpt1.value = min;
+      } else {
+        inpt1.value = roundTo10(inpt1.value);
+      }
+
+      ;
+      rangeCost1.textContent = inpt1.value + "₽";
+      rangeCost2.textContent = inpt2.value + "₽";
+    };
+
+    document.onmouseup = function () {
+      document.onmousemove = document.onmouseup = null;
+    };
+
+    return false;
+  };
+
+  button1.ondragstart = function () {
+    return false;
+  };
+
+  button2.ondragstart = function () {
+    return false;
+  };
+
+  function getCoords(elem) {
+    var box = elem.getBoundingClientRect();
+    return {
+      top: box.top + pageYOffset,
+      left: box.left + pageXOffset
+    };
+  }
+
+  ;
+  /*console.log(inpt1.value);
+  rangeCost1.textContent = inpt1.value;
+  rangeCost2.textContent = inpt2.value;
+  console.log(inpt2.value);*/
+}
+},{"./range-slider.scss":"../../components/range-slider/range-slider.scss"}],"../../components/rate_button/rate_button.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../components/rate_button/rate_button.js":[function(require,module,exports) {
+"use strict";
+
+require("./rate_button.scss");
+
+//var rating = document.querySelector('.rating');
+var rateButtons = document.querySelector('.rate_buttons');
+var ratingItem = document.querySelectorAll('.rate-item');
+
+rateButtons.onclick = function (event) {
+  var target = event.target;
+  var newRating = target.closest('.rating');
+  ratingItem = newRating.querySelectorAll('.rate-item');
+
+  if (target.classList.contains('rate-item')) {
+    removeClass(ratingItem, 'current-active');
+    target.classList.add('active', 'current-active');
+  } else if (target.classList.contains('path')) {
+    removeClass(ratingItem, 'current-active');
+    target.parentNode.classList.add('active', 'current-active');
+  }
+
+  ;
+};
+
+rateButtons.onmouseover = function (event) {
+  var target = event.target;
+  var newRating = target.closest('.rating');
+  if (!newRating) return;
+  ratingItem = newRating.querySelectorAll('.rate-item');
+
+  if (target.classList.contains('rate-item')) {
+    removeClass(ratingItem, 'active');
+    target.classList.add('active');
+    mouseOverActiveClass(ratingItem);
+  } else if (target.classList.contains('path')) {
+    removeClass(ratingItem, 'active');
+    target.parentNode.classList.add('active');
+    mouseOverActiveClass(ratingItem);
+  }
+
+  ;
+};
+
+rateButtons.onmouseout = function () {
+  addClass(ratingItem, 'active');
+  mouseOutActiveClass(ratingItem);
+};
+
+function removeClass(arr) {
+  for (var i = 0, iLen = arr.length; i < iLen; i++) {
+    for (var j = 1; j < arguments.length; j++) {
+      ratingItem[i].classList.remove(arguments[j]);
+    }
+  }
+}
+
+function addClass(arr) {
+  for (var i = 0, iLen = arr.length; i < iLen; i++) {
+    for (var j = 1; j < arguments.length; j++) {
+      ratingItem[i].classList.add(arguments[j]);
+    }
+  }
+}
+
+function mouseOverActiveClass(arr) {
+  for (var i = 0, iLen = arr.length; i < iLen; i++) {
+    if (arr[i].classList.contains('active')) {
+      break;
+    } else {
+      arr[i].classList.add('active');
+    }
+  }
+}
+
+function mouseOutActiveClass(arr) {
+  for (var i = arr.length - 1; i >= 1; i--) {
+    if (arr[i].classList.contains('current-active')) {
+      break;
+    } else {
+      arr[i].classList.remove('active');
+    }
+  }
+}
+},{"./rate_button.scss":"../../components/rate_button/rate_button.scss"}],"../../components/text-field/text-field.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -3103,7 +3494,26 @@ var Inputmask = require('inputmask');
 jQuery(function () {
   Inputmask('99.99.9999').mask('.masked');
 });
-},{"./text-field.scss":"../../components/text-field/text-field.scss","inputmask":"../../../node_modules/inputmask/index.js"}],"../../components/types-demo/types-demo.scss":[function(require,module,exports) {
+},{"./text-field.scss":"../../components/text-field/text-field.scss","inputmask":"../../../node_modules/inputmask/index.js"}],"../../components/toggle/toggle.scss":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../components/toggle/toggle.js":[function(require,module,exports) {
+"use strict";
+
+require("./toggle.scss");
+
+$('.switch-btn').click(function () {
+  $(this).toggleClass('switch-on');
+
+  if ($(this).hasClass('switch-on')) {
+    $(this).trigger('on.switch');
+  } else {
+    $(this).trigger('off.switch');
+  }
+});
+},{"./toggle.scss":"../../components/toggle/toggle.scss"}],"../../components/types-demo/types-demo.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -3114,6 +3524,9 @@ module.hot.accept(reloadCSS);
 require("./types-demo.scss");
 },{"./types-demo.scss":"../../components/types-demo/types-demo.scss"}],"../../components/**/*.js":[function(require,module,exports) {
 module.exports = {
+  "button": {
+    "button": require("./../button/button.js")
+  },
   "checkbox": {
     "checkbox": require("./../checkbox/checkbox.js")
   },
@@ -3129,20 +3542,35 @@ module.exports = {
   "layout": {
     "layout": require("./../layout/layout.js")
   },
+  "like_button": {
+    "like_button": require("./../like_button/like_button.js")
+  },
   "logo-demo": {
     "logo-demo": require("./../logo-demo/logo-demo.js")
   },
   "menu": {
     "menu": require("./../menu/menu.js")
   },
+  "radio_button": {
+    "radio_button": require("./../radio_button/radio_button.js")
+  },
+  "range-slider": {
+    "range-slider": require("./../range-slider/range-slider.js")
+  },
+  "rate_button": {
+    "rate_button": require("./../rate_button/rate_button.js")
+  },
   "text-field": {
     "text-field": require("./../text-field/text-field.js")
+  },
+  "toggle": {
+    "toggle": require("./../toggle/toggle.js")
   },
   "types-demo": {
     "types-demo": require("./../types-demo/types-demo.js")
   }
 };
-},{"./../checkbox/checkbox.js":"../../components/checkbox/checkbox.js","./../color-demo/color-demo.js":"../../components/color-demo/color-demo.js","./../dropdown-input/dropdown.js":"../../components/dropdown-input/dropdown.js","./../header/header.js":"../../components/header/header.js","./../layout/layout.js":"../../components/layout/layout.js","./../logo-demo/logo-demo.js":"../../components/logo-demo/logo-demo.js","./../menu/menu.js":"../../components/menu/menu.js","./../text-field/text-field.js":"../../components/text-field/text-field.js","./../types-demo/types-demo.js":"../../components/types-demo/types-demo.js"}],"../colors_and_type/colors_and_type.scss":[function(require,module,exports) {
+},{"./../button/button.js":"../../components/button/button.js","./../checkbox/checkbox.js":"../../components/checkbox/checkbox.js","./../color-demo/color-demo.js":"../../components/color-demo/color-demo.js","./../dropdown-input/dropdown.js":"../../components/dropdown-input/dropdown.js","./../header/header.js":"../../components/header/header.js","./../layout/layout.js":"../../components/layout/layout.js","./../like_button/like_button.js":"../../components/like_button/like_button.js","./../logo-demo/logo-demo.js":"../../components/logo-demo/logo-demo.js","./../menu/menu.js":"../../components/menu/menu.js","./../radio_button/radio_button.js":"../../components/radio_button/radio_button.js","./../range-slider/range-slider.js":"../../components/range-slider/range-slider.js","./../rate_button/rate_button.js":"../../components/rate_button/rate_button.js","./../text-field/text-field.js":"../../components/text-field/text-field.js","./../toggle/toggle.js":"../../components/toggle/toggle.js","./../types-demo/types-demo.js":"../../components/types-demo/types-demo.js"}],"../colors_and_type/colors_and_type.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -14276,9 +14704,6 @@ window.jQuery = window.$ = require('jquery');
 requireAll(require.context('./components', true, /^\.\/(?!.*(?:__tests__)).*\.(jsx?)$/));  // pattern to take each .js(x) files except of the ones with __tests__ directory https://regex101.com/r/J8NWTj/1
 requireAll(require.context('./pages', true, /^\.\/(?!.*(?:__tests__)).*\.(jsx?)$/));
  */
-
-console.log(_.default);
-console.log(_2.default);
 },{"normalize.css":"../../../node_modules/normalize.css/normalize.css","./theme/global.scss":"../../theme/global.scss","./components/**/*.js":"../../components/**/*.js","./pages/**/*.js":"../**/*.js","jquery":"../../../node_modules/jquery/dist/jquery.js"}],"../../../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -14307,7 +14732,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53054" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64662" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
