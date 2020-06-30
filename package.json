@@ -4,10 +4,10 @@
   "description": "",
   "main": "",
   "scripts": {
-    "deploy": "gh-pages -d  dist",
+    "deploy": "gh-pages -d  docs",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/pages/form_elements/form_elements.pug --open",
-    "build": "parcel build src/pages/index/index.pug -d docs --public-url ./"
+    "build": "parcel build parcel src/pages/form_elements/form_elements.pug -d docs --public-url ./"
   },
   "keywords": [],
   "author": "",

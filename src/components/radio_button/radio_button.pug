@@ -1,0 +1,9 @@
+mixin radio_button(text, checked)
+  .radio_button
+    label.label-radio
+      if checked == "checked"
+        input.radio(type="radio" checked=checked name='gender')
+      else 
+        input.radio(type="radio")
+      span.fake-radio
+      span.text-radio= text 

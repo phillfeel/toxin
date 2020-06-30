@@ -1,0 +1,72 @@
+.range-cost{
+  display: inline-block;
+  width: 120px;
+  margin-left: 68px;
+  &__input1{
+    width: 49px;
+    height: 20px;
+    display: inline-block;
+    text-align: right;
+  }
+  &__dash{
+    width: 12px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+  }
+  &__input2{
+    width: 49px;
+    height: 20px;
+    display: inline-block;
+    text-align: right;
+  }
+}
+
+.range-slider {
+  position: relative;
+  margin-top: 10px;
+}
+
+.range-slider .range {
+  width: 266px;
+  height: 6px;
+
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.range__button_1,
+.range__button_2 {
+  position: absolute;
+  top: 50%;
+
+  width: 12px;
+  height: 12px;
+
+  cursor: move;
+  transform: translateY(-50%);
+
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+  box-sizing: content-box;
+}
+
+.range__between {
+  position: absolute;
+  height: 6px;
+  width: 0px;
+
+  margin-top: -1px;
+  border: none;
+  background: linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
+}
+
+.range_inpt1,
+.range_inpt2 {
+  margin-top: 20px;
+  width: 50px;
+  display: none;
+}

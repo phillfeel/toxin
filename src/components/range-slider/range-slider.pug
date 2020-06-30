@@ -1,0 +1,19 @@
+mixin range-slider(minCost, maxCost, showRange1, showRange2)
+  .range-cost
+    .range-cost__input1(id="id66i1r") 
+    .range-cost__dash -
+    .range-cost__input2(id="id66i2r")
+  .range-slider_wrap
+    .range-slider
+      .range(id='id66')
+          .range__between(id='id66b')
+          button.range__button_1(id='id661')
+          button.range__button_2(id='id662')
+          input.range_inpt1(id='id66i1' type='number' value=showRange1 min=minCost max=maxCost) 
+          input.range_inpt2(id='id66i2' type='number' value=showRange2 min=minCost max=maxCost)
+//-<div id='id66' class="range">
+        <div id='id66b' class='range__between'></div>
+          <button id='id661' class="range__button_1"></button>
+          <button id='id662' class="range__button_2"></button>
+          <input id='id66i1' class='range_inpt1' type='number' min='0' max='17000'>
+          <input id='id66i2' class='range_inpt2' type='number' min='0' max='17000'>

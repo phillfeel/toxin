@@ -1,0 +1,40 @@
+.rating{
+  user-select:none;
+  display: inline-block;
+  &:last-child {
+    margin-left: 20px;
+  }
+  svg{
+    margin-left: 4px;
+    path{
+      transition: all .3s;
+    }
+  }
+  svg.active {
+    path {
+      fill:url(#paint0_linear);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*.rating{
+
+  .rate-item {
+    position: relative;
+    margin-left: 3px;
+    z-index: 2000;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
+}*/

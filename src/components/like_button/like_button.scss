@@ -1,0 +1,92 @@
+@import '../../theme/variables.scss';
+
+.wrap_like_button{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.like_button {
+  display: inline-block;
+  z-index: 5;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  position: relative;
+  transition-duration: 300ms;
+  /* анимация */
+  width: 40px;
+  height: 20px;
+  background-color: $color-dark-25;
+  //box-sizing: border-box;
+  border-radius: 10px;
+
+  &-inside{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 37px;
+    height: 17px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    z-index: 10;
+    
+  }
+
+
+  svg {
+    /* цвет кнопки */
+    top: 5.5px;
+    left: 4px;
+    transition-duration: 300ms;
+    /* анимация */
+    position: absolute;
+    z-index: 1;
+    fill: #FFFFFF;
+    stroke: #1F2041;
+    stroke-opacity: 0.25;
+    z-index: 11;
+  }
+  .count{
+    position: absolute;
+    line-height: normal;
+    font-size: 10px;
+    top:2px;
+    left:19px;
+    user-select: none;
+    color: $color-dark-25;
+    transition-duration: 300ms;
+    z-index: 11;
+  }
+}
+
+.like-helper {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  opacity: 0;
+  background:linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  transition: opacity .3s linear;
+  }
+
+.like {
+  //background-color: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+  .like-helper{
+    opacity: 1;
+  }
+  svg {
+    fill: $color-purple;
+    stroke-opacity: 1;
+    stroke: $color-purple;
+    stroke-width: 1;
+  }
+  .count{
+    color: $color-purple;
+    
+  }
+}
+
