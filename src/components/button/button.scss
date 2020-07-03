@@ -1,5 +1,6 @@
-
 .button-original {
+  font-size: 12px;
+  line-height: 15px;
   margin-right: 20px;
   position: relative;
   background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
@@ -7,7 +8,7 @@
   width: 99px;
   height: 44px;
   outline: none;
-  border:none;
+  border: none;
   cursor: pointer;
   z-index: 0;
 
@@ -18,27 +19,59 @@
 
   transition: all .2s;
 
+
   &.hovered,
-  &:hover{
+  &:hover {
     background: linear-gradient(var(--color-main-opacity, rgba(188, 156, 255, 0.5)), var(--color-main_grad-opacity, rgba(139, 164, 249, 0.5)));
     //transition: all .2s;
   }
-  &.border{
-    margin-top: 30px;
+
+  &.border {
+
     //transition: all .2s;
-    &:after{
-    content: "click-me";
-    position: absolute;
-    top:2px;
-    left: 2px;
-    width: 95px;
-    height: 40px;
-    border-radius: 22px;
-    background-color: #ffffff ;
-    text-align: center;
-    line-height: 42px;
-    color: #BC9CFF;
+    &:after {
+      content: "click-me";
+      position: absolute;
+      top: 2px;
+      left: 2px;
+      width: 95px;
+      height: 40px;
+      border-radius: 22px;
+      background-color: #ffffff;
+      text-align: center;
+      line-height: 42px;
+      color: #BC9CFF;
     }
   }
-}
 
+  &.text {
+    height: 15px;
+    width: 67px;
+    margin-left: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    color: #BC9CFF;
+
+    &.hovered,
+    &:hover {
+      color:rgba(31, 32, 65, 0.5);
+    }
+  }
+  &.long{
+    width: 320px;
+    position: relative;
+    svg{
+      position: absolute;
+      content: "";
+      top:13px;
+      left:290px ;
+      width: 18px;
+      height: 18px;
+      path{
+        fill:#FFFFFF;
+      }
+    }
+  }
+
+}

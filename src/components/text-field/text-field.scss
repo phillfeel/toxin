@@ -45,13 +45,14 @@
     width: 266px;
   }
   button[type="submit"]{
+   
+    background: none;
     height: 18px;
     position: absolute;
     bottom: 12px;
     right: 15px;
     content: '';
     outline: none;
-
     cursor: pointer;
     border: none;
   }

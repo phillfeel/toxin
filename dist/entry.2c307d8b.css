@@ -482,6 +482,8 @@ h3 {
   padding: 0 0;
 }
 .button-original {
+  font-size: 12px;
+  line-height: 15px;
   margin-right: 20px;
   position: relative;
   background: -webkit-gradient(linear, left top, left bottom, from(#BC9CFF), to(#8BA4F9));
@@ -504,9 +506,6 @@ h3 {
   background: -webkit-gradient(linear, left top, left bottom, from(var(--color-main-opacity, rgba(188, 156, 255, 0.5))), to(var(--color-main_grad-opacity, rgba(139, 164, 249, 0.5))));
   background: linear-gradient(var(--color-main-opacity, rgba(188, 156, 255, 0.5)), var(--color-main_grad-opacity, rgba(139, 164, 249, 0.5)));
 }
-.button-original.border {
-  margin-top: 30px;
-}
 .button-original.border:after {
   content: "click-me";
   position: absolute;
@@ -519,6 +518,33 @@ h3 {
   text-align: center;
   line-height: 42px;
   color: #BC9CFF;
+}
+.button-original.text {
+  height: 15px;
+  width: 67px;
+  margin-left: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #BC9CFF;
+}
+.button-original.text.hovered, .button-original.text:hover {
+  color: rgba(31, 32, 65, 0.5);
+}
+.button-original.long {
+  width: 320px;
+  position: relative;
+}
+.button-original.long svg {
+  position: absolute;
+  content: "";
+  top: 13px;
+  left: 290px;
+  width: 18px;
+  height: 18px;
+}
+.button-original.long svg path {
+  fill: #FFFFFF;
 }
 .label {
   display: -webkit-box;
@@ -1404,6 +1430,7 @@ h3 {
   width: 266px;
 }
 .text-field button[type=submit] {
+  background: none;
   height: 18px;
   position: absolute;
   bottom: 12px;
@@ -1634,6 +1661,9 @@ h3 {
 
 .buttons {
   max-width: 320px;
+}
+.buttons :nth-child(4), .buttons :nth-child(6), .buttons :nth-child(8) {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=/entry.2c307d8b.css.map */

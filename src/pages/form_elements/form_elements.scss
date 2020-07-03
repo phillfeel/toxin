@@ -42,5 +42,7 @@
 }
 .buttons{
   max-width: 320px;
-
+  :nth-child(4),:nth-child(6),:nth-child(8){
+    margin-top: 30px;
+  }
 }
